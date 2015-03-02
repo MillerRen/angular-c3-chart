@@ -10,7 +10,7 @@ angular-c3    [![Build Status](https://travis-ci.org/maseh87/c3-chart.svg?branch
 
 ## Downloading
 1. The best way to install angular-c3 is to use bower
-    + ```bower install angular-c3 --save```
+    + ```bower install angular-c3 -chart--save```
 2. Or, from this repo
   + you'll need the main files in ```dist/```
 
