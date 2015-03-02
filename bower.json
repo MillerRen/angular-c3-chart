@@ -7,6 +7,7 @@
     "Mason <maseh87@gmail.com>"
   ],
   "description": "Angular directive to utilize c3 charts",
+  "keywords": ["angular", "chart", "d3", "c3"],
   "license": "MIT",
   "ignore": [
     "**/.*",
