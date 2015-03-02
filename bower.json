@@ -7,7 +7,12 @@
     "Mason <maseh87@gmail.com>"
   ],
   "description": "Angular directive to utilize c3 charts",
-  "keywords": ["angular", "chart", "d3", "c3"],
+  "keywords": [
+    "angular",
+    "chart",
+    "d3",
+    "c3"
+  ],
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -24,11 +29,11 @@
     "karma.conf.js",
     "gulpfile.js"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "d3": "~3.5.5",
+    "c3": "~0.4.9"
+  },
   "devDependencies": {
-    "angular-mocks": ">1.3.0",
-    "d3": ">3.4.11",
-    "c3": ">0.4.0",
-    "angular": ">1.3.0"
+    "angular-mocks": ">1.3.0"
   }
 }
