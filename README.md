@@ -23,7 +23,7 @@ angular-c3    [![Build Status](https://travis-ci.org/maseh87/c3-chart.svg?branch
 ```
 
 ```javascript
-angular.module('chartApp', ['angular-c3'])
+angular.module('chartApp', ['angular-c3-chart'])
 .controller('ChartController', function($scope){
   $scope.config = {
     data: {

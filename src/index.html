@@ -8,7 +8,7 @@
   <script src="lib/angular/angular.js"></script>
   <script src="lib/d3/d3.min.js"></script>
   <script src="lib/c3/c3.js"></script>
-  <script src="c3-chart.js"></script>
+  <script src="angular-c3-chart.js"></script>
 
   <div ng-controller="DemoController">
     <c3-chart id="chart" config="config" pattern="material"></c3-chart>
@@ -16,7 +16,7 @@
   </div>
 
   <script type="text/javascript">
-    angular.module('demo', ['angular-c3'])
+    angular.module('demo', ['angular-c3-chart'])
       .controller('DemoController', function($scope, c3Factory, $timeout) {
 
         $scope.config = {
