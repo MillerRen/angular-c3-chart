@@ -2,7 +2,7 @@
   "name": "angular-c3-chart",
   "main": "dist/c3-chart.js",
   "version": "0.0.7",
-  "homepage": "https://github.com/maseh87/c3-chart",
+  "homepage": "https://github.com/MillerRen/angular-c3-chart.git",
   "authors": [
     "Mason <maseh87@gmail.com>"
   ],
