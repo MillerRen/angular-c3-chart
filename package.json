@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maseh87/c3-chart.git"
+    "url": "https://github.com/MillerRen/angular-c3-chart.git"
   },
   "author": "Mason Hargrove",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maseh87/c3-chart/issues"
+    "url": "https://github.com/MillerRen/angular-c3-chart.git/issues"
   },
-  "homepage": "https://github.com/maseh87/c3-chart",
+  "homepage": "https://github.com/MillerRen/angular-c3-chart.git",
   "devDependencies": {
     "karma": "^0.12.23",
     "karma-chrome-launcher": "^0.1.4",
