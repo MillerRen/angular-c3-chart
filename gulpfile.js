@@ -14,8 +14,8 @@ gulp.task('jshint', function() {
 });
 
 gulp.task('concat', function() {
-  return gulp.src(paths.scripts)
-    .pipe($.concat('angular-c3-chart.all.js'))
+  return gulp.src(['src/lib/c3/c3.min.css'])
+    .pipe($.concat('angular-c3-chart.all.min.css'))
     .pipe(gulp.dest('dist/'))
     .pipe($.notify({message: 'Done Concating'}));
 });
